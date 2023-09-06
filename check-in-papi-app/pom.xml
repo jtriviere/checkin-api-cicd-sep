@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>46b4b595-995b-4b59-8070-ca912fa6c2c0</groupId>
 	<artifactId>check-in-papi-app</artifactId>
-	<version>1.0.0</version>
+	<version>1.9.6</version>
 	<packaging>mule-application</packaging>
 
 	<name>check-in-papi-app</name>
