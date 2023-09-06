@@ -98,4 +98,5 @@ jobs:
       env:
         AUTHOR: "Mr Bean"
       run: |
-        mvn clean deploy --file check-in-papi-app/pom.xml -DmuleDeploy -Denvironment="Sandbox" -Dapi.id="18944611" -Dencrypt.key="FAKE"
+        mvn clean deploy --file check-in-papi-app/pom.xml -DmuleDeploy -Denvironment="Sandbox" -Dapi.id="18944611" -Dencrypt.key="${{ secrets.ENCRYPT_KEY }}"       
+  
